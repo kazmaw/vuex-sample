@@ -16,7 +16,7 @@ export default {
    * 結果はPromiseを返してハンドリングする
    * @param {Object} params パラメータ
    */
-  getTodos (params) {
-    return client.get('/todos', params);
+  getPosts (params) {
+    return client.get('/posts', params);
   }
 }

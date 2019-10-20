@@ -9,6 +9,6 @@ let data = [
 export default {
   run: client => {
     const mock = new MockAdapter(client);
-    mock.onGet('/todos').reply(200, data);
+    mock.onGet('/posts').reply(200, data);
   }
 }
